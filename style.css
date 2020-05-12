@@ -1,0 +1,31 @@
+canvas {
+  border: 2px;
+  border-color: #212121;
+  border-style: solid;
+  background-color: #696969;
+}
+
+#main {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 820px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  height: 800px;
+}
+
+#game {
+  width: 800px;
+  height: 600px;
+}
+
+#healthBar {
+  height: 50px;
+  width: 600px;
+  border: 2px;
+  border-color: #212121;
+  background-color: green;
+}
